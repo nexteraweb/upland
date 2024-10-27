@@ -3,8 +3,9 @@
 export default function Home() {
   return (
     <>
-      <h1>Hellow NextEraWeb1</h1>
-      <p></p>
+      <div className="bannar py-[256px] bg-[url('../public/bannar.png')] bg-cover bg-center object-cover">
+       <h1 className="font-Darker text-[100px]">Hellow</h1>
+      </div>
     </>
   );
 }

@@ -6,6 +6,9 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      'Darker': ['Darker Grotesque', 'sans-serif']
+    },
     extend: {
       colors: {
         background: "var(--background)",
