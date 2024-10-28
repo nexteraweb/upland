@@ -24,15 +24,6 @@ const page = () => {
             Blog
           </h1>
           <BreadCumb />
-          <div className="flex items-center gap-3">
-            <span className={`text-sm text-[#B3B1B7] leading-[170%] ${roboto.className}`}>
-              Home
-            </span>
-            .
-            <span className={`text-sm text-[#B3B1B7] leading-[170%] ${roboto.className}`}>
-              Blog
-            </span>
-          </div>
         </Container>
       </section>
     </div>
