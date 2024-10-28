@@ -1,10 +1,7 @@
-// "use client"
-// Jodi hook(Like useState, useEffect) use kora lage tahole use client taa uncomment kore dio karon default server component next js a ,,,
-
 import React from "react";
 import Container from "../component/layers/Container";
 import { Darker_Grotesque, Roboto } from "next/font/google";
-import BreadCrumbs from "../component/layers/BreadCrumbs";
+import BreadCumb from "../component/layers/BreadCumb";
 
 const darkergrotesque = Darker_Grotesque({
   weight: "",
@@ -26,14 +23,14 @@ const page = () => {
           >
             Blog
           </h1>
-          {/* <BreadCrumbs /> */}
+          <BreadCumb />
           <div className="flex items-center gap-3">
             <span className={`text-sm text-[#B3B1B7] leading-[170%] ${roboto.className}`}>
-            Home
+              Home
             </span>
             .
             <span className={`text-sm text-[#B3B1B7] leading-[170%] ${roboto.className}`}>
-            Blog
+              Blog
             </span>
           </div>
         </Container>
