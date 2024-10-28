@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Container from './Container'
 import Li from './Li'
 
+
 const Navbar = () => {
     return (
         <>
@@ -13,8 +14,8 @@ const Navbar = () => {
                     <div className="logo">
                         <Image src={Logo} alt='Logo' />
                     </div>
-                    <ul className="menu flex gap-x-2 items-center text-[#fff]">
-                        <Li litext='Home' go='#'/>
+                    <ul className="menu flex gap-x-[64px] items-center text-[#fff]">
+                        <Li litext='Home' go='#' className='text-red-700'/>
                         <Li litext='Download app' go='#'/>
                         <Li litext='UI screens' go='#'/>
                         <Li litext='Testimonials' go='#'/>
