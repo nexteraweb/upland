@@ -6,28 +6,28 @@ import Container from './Container'
 
 const Navbar = () => {
     return (
-        <>
-  
-            <div className='flex justify-between items-center'>
-                <div className="logo">
-                    <Image src={Logo} alt='Logo'/>
+        <div className=" bg-blue-500 py-8">
+            <Container>
+                <div className='flex justify-between items-center'>
+                    <div className="logo">
+                        <Image src={Logo} alt='Logo' />
+                    </div>
+                    <ul className="menu flex gap-x-2 items-center">
+                        <li><Link href='#'>Home</Link></li>
+                        <li><Link href='#'>Home</Link></li>
+                        <li><Link href='#'>Home</Link></li>
+                        <li><Link href='#'>Home</Link></li>
+                        <li><Link href='#'>Home</Link></li>
+                        <li><Link href='#'>Home</Link></li>
+                        <li><Link href='#'>Home</Link></li>
+                        <li><Link href='#'>Home</Link></li>
+                    </ul>
+                    <div className="btn">
+                        <Link href='#'>Btn</Link>
+                    </div>
                 </div>
-                <ul className="menu flex gap-x-2 items-center">
-                    <li><Link href='#'>Home</Link></li>
-                    <li><Link href='#'>Home</Link></li>
-                    <li><Link href='#'>Home</Link></li>
-                    <li><Link href='#'>Home</Link></li>
-                    <li><Link href='#'>Home</Link></li>
-                    <li><Link href='#'>Home</Link></li>
-                    <li><Link href='#'>Home</Link></li>
-                    <li><Link href='#'>Home</Link></li>
-                </ul>
-                <div className="btn">
-                    <Link href='#'>Btn</Link>
-                </div>
-            </div>
-
-        </>
+            </Container>
+        </div>
     )
 }
 
