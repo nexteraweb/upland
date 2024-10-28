@@ -5,7 +5,9 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>blog page</div>
+    <div className='h-[100vh] bg-blue-500'>
+      Blog Page Design Here
+    </div>
   )
 }
 
