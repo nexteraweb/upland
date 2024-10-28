@@ -15,14 +15,10 @@ const Navbar = () => {
                     </div>
                     <ul className="menu flex gap-x-2 items-center text-[#fff]">
                         <Li litext='Home' go='#'/>
-                        <li><Link href='#'>Home</Link></li>
-                        <li><Link href='#'>Home</Link></li>
-                        <li><Link href='#'>Home</Link></li>
-                        <li><Link href='#'>Home</Link></li>
-                        <li><Link href='#'>Home</Link></li>
-                        <li><Link href='#'>Home</Link></li>
-                        <li><Link href='#'>Home</Link></li>
-                        <li><Link href='#'>Home</Link></li>
+                        <Li litext='Download app' go='#'/>
+                        <Li litext='UI screens' go='#'/>
+                        <Li litext='Testimonials' go='#'/>
+                        <Li litext='FAQ' go='#'/>
                     </ul>
                     <div className="btn">
                         <Link href='#'>Btn</Link>
