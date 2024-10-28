@@ -10,6 +10,9 @@ module.exports = {
       'Darker': ['Darker Grotesque', 'sans-serif']
     },
     extend: {
+      backgroundImage: {
+        'blog-intro': "url('/blog_intro_wave.png')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
