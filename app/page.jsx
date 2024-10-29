@@ -15,7 +15,7 @@ const roboto = Roboto({
 export default function Home() {
   return (
     <>
-      <div className="bannar py-[256px] bg-[url('../public/bannar.png')] bg-cover bg-center object-cover">
+      <div className="bannar py-[280px] bg-[url('../public/bannar.png')] bg-cover bg-center object-cover">
         <Container>
           <div className="left max-w-[567px]">
             <p className={` ${roboto.className} font-medium text-xs leading-[170%] uppercase text-[#FF6231]`}>trendy application</p>
