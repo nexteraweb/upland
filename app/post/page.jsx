@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import Image from 'next/image'
 // Jodi hook(Like useState, useEffect) use kora lage tahole use client taa uncomment kore dio karon default server component next js a ,,,
 import Link from 'next/link'
@@ -8,10 +8,10 @@ import Container from '../component/layers/Container'
 
 const page = () => {
     return (
-        <div className='navBg2 h-[453px]'>
-            <Container>
-                <BredCumb />
-            </Container>
+        <div>
+         
+         <Link href='#'>Ho</Link>
+         {/* <Image src={Logo} alt='Logo' width={100} height={100}/> */}
         </div>
     )
 }
