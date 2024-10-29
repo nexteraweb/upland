@@ -1,8 +1,11 @@
 import "./globals.css";
 import Navbar from "@/app/component/layers/Navbar";
 import Footer from "@/app/component/layers/Footer";
+import {Roboto} from 'next/font/google'
+import {Codystar} from 'next/font/google'
 
-
+export const roboto = Roboto({ subsets: ['latin'], weight: ['100', '300', '400', '500', '700', '900'] })
+export const codystar = Codystar({ subsets: ['latin'], weight: ['400'] })
 
 export default function RootLayout({ children }) {
   return (

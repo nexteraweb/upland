@@ -4,12 +4,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import BredCumb from '../component/layers/BredCumb'
-import a from '/public/navBackgroumd.png'
 import Container from '../component/layers/Container'
 
 const page = () => {
     return (
-        <div className='bg-blue-400'>
+        <div className='navBg2 h-[453px]'>
             <Container>
                 <BredCumb />
             </Container>
