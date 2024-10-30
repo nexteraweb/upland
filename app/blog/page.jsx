@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../component/layers/Container";
 import { Darker_Grotesque, Roboto } from "next/font/google";
-import BreadCumb from "../component/layers/BreadCumb";
+import BredCumb from "../component/layers/BredCumb";
 
 const darkergrotesque = Darker_Grotesque({
   weight: "",
@@ -15,17 +15,10 @@ const roboto = Roboto({
 
 const page = () => {
   return (
-    <div className="">
-      <section className="bg-blog-intro pt-[159px] pb-[160px]">
+    <div className="navBg2">
         <Container>
-          <h1
-            className={`${darkergrotesque.className} text-[60px] text-white font-semibold mb-[30px]`}
-          >
-            Blog
-          </h1>
-          <BreadCumb />
+          <BredCumb />
         </Container>
-      </section>
     </div>
   );
 };
