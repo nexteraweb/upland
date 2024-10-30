@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 const Navbar = () => {
     return (
-        <div className=" absolute top-[50px] left-0 w-full">
+        <div className=" absolute top-[50px] left-0 w-full z-50">
             <Container className={"max-w-[1780px]"}>
 
                 <div className='flex justify-between items-center'>
